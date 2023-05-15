@@ -1,0 +1,90 @@
+/* nav{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 2px rgba(191, 191, 226, 0.8);
+  margin-top: 0px;
+  padding: 20px 0px;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+} */
+
+/* .title{
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(193, 193, 216, 0.7);
+} */
+
+/* .modes > button{
+  border: none;
+  background-color: white;
+  font-size:  24px;
+  color: rgba(193, 193, 216, 0.7);
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.modes > button:hover{
+  color: rgba(114, 114, 116, 0.9);
+} */
+
+/* .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F1f5f8;
+}
+
+.content{
+  height: 100vh;
+  /* display: grid;
+  place-items: center; */
+  align-items: center;
+  margin: auto auto;
+}
+
+
+
+.background-color{
+  display: flex;
+  justify-content: center;
+}
+
+.content h1{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  font-size: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.content button{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  display: block;
+  margin: 30px auto;
+}
+
+.content button:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  cursor: pointer;
+}
